@@ -182,33 +182,34 @@ padding-bottom: 0.5rem;
     text-transform: capitalize;
 }
 
-.services{
+/* heros start */
+.heros{
     background-color:skyblue;
 }
 
-.services .box-container{
+.heros .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
     gap: 2rem;
 }
 
-.services .box-container .box{
+.heros .box-container .box{
     height: 100%;
     position: relative;
     overflow: hidden;
 }
 
-.services .box-container .box img{
+.heros .box-container .box img{
     height: 100%;
     width: 100%;
     object-fit: cover; 
 }
 
-.services .box-container .box:hover img{
+.heros .box-container .box:hover img{
     transform: scale(1.1);
 }
 
-.services .box-container .box .content{
+.heros .box-container .box .content{
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -221,7 +222,7 @@ padding-bottom: 0.5rem;
 
 }
 
-.services .box-container .box .content h3{
+.heros .box-container .box .content h3{
     text-align: center;
     font-size: 3rem;
     color:white;
@@ -229,7 +230,7 @@ padding-bottom: 0.5rem;
     text-transform: capitalize;
 }
 
-.services .box-container .box:hover .content{
+.heros .box-container .box:hover .content{
     display: flex;
 }
  .heading{
@@ -272,38 +273,38 @@ padding-bottom: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-/* styles start */
+/* manager start */
 
-.styles{
+.manager{
     background-color: #f1f1f1;
 }
 
-.styles .box-container{
+.manager .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(25rem1fr));
     gap: 1.5rem;
 }
-.styles .box-container .box .image{
+.manager .box-container .box .image{
     overflow: hidden;
     width: 100%;
     text-align: center;
 }
-.styles .box-container .box .content{
+.manager .box-container .box .content{
     text-align: center;
 }
-.styles .box-container .box .content .title{
+.manager .box-container .box .content .title{
     font-size: 2.5rem;
     color: var(--primary-color);
     text-transform: capitalize;
 }
 
-.styles .box-container .box .content p{
+.manager .box-container .box .content p{
     font-size: 1.6rem;
     line-height: 1.8;
     color: #444;
     padding: 1rem 0;
 }
-/* styles end */
+/* manager end */
 
 /* pricing start */
 .pricing{
@@ -420,40 +421,40 @@ padding-bottom: 0.5rem;
 /* pricing end */
 
 
-/* book a visit a start */
-.visit-us{
+/* report  start */
+.report{
     background-image: url(https://th.bing.com/th/id/OIP.tb8MMUKyalbLouiYBwvM1wAAAA?rs=1&pid=ImgDetMain);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.visit-us h1{
+.report h1{
     color: black;
 }
 
-.visit-us .row{
+.report .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.visit-us .row form{
+.report .row form{
     flex: 1 1 40rem;
     border: 0.1rem solid #f7f6f6;
     padding: 2rem;
 }
 
-.visit-us .row .image{
+.report .row .image{
     flex: 1 1 40rem;
 }
 
 
-.visit-us .row .image img{
+.report .row .image img{
     width: 100%;
 }
 
-.visit-us .row form h3{
+.report .row form h3{
     font-size: 2.5rem;
     text-align: center;
     color: black;
@@ -461,7 +462,7 @@ padding-bottom: 0.5rem;
     text-transform: uppercase;
 }
 
-.visit-us .row form .inputBox{
+.report .row form .inputBox{
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -479,7 +480,7 @@ padding-bottom: 0.5rem;
     background: none;
 }
 
-/* book a visit end */
+/* report end */
 
 
 /* review start */
